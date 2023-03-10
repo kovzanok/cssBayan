@@ -38,7 +38,7 @@
     }
 
     h2{
-        padding: 5% 0;
+        padding: 2% 0;
         font-size: 1.5rem;
         display: flex;
         justify-content: space-between;
@@ -66,7 +66,7 @@
 
     input[type=radio]:checked+label>img{
         max-height: 100vh;
-        padding: 5% 0;
+        padding: 1% 0;
     }
 
     input[type=radio]:checked+label>h2{
@@ -90,4 +90,37 @@
     h1{
         font-size: 2.5rem;
     }
+}
+
+@media (min-width: 1920px){
+    .container{
+        max-width: 70%;
+    }
+
+    label{
+        cursor: pointer;
+    }
+
+    span{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+
+    .accordeon:hover span{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .accordeon:hover h2{
+        color: black;
+    }
+
+    
 }
