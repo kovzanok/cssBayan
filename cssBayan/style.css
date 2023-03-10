@@ -81,3 +81,13 @@
         color: #035ad9!important;
     }
 }
+
+@media (min-width: 820px){
+    h2{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+}
