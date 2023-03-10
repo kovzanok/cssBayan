@@ -42,4 +42,12 @@
         display: flex;
         justify-content: space-between;
     }
+
+    img{
+        width: 80%;
+        height: 80%;
+        align-self: center;
+        padding: 5% 0;
+        
+    }
 }
