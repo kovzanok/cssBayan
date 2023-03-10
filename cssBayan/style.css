@@ -27,9 +27,7 @@
     }
 
     input{
-        height: 0;
-        opacity: 0;
-        visibility: hidden;
+        height: 0;        
     }
 
     label{
