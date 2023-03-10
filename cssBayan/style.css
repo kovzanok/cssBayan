@@ -1,0 +1,45 @@
+@media (min-width: 320px){
+    body{
+        margin: 0;
+        background-color: #f5f5eb;
+    }
+
+    h2{
+        margin: 0;
+    }
+
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accordeon{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accordeon-title{
+        text-align: center;
+    }
+
+    input{
+        height: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    label{
+        border-top: 0.1rem solid black;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2{
+        padding: 5%;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
