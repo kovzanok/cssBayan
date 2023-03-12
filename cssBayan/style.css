@@ -93,11 +93,7 @@
 @media (min-width: 1240px) {
   .container {
     max-width: 70%;
-  }
-
-  label {
-    cursor: pointer;
-  }
+  }  
 
   span {
     visibility: hidden;
@@ -111,6 +107,12 @@
     font-size: 2rem;
   }
 
+  img {
+    width: 30%;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
   .accordeon:hover span {
     visibility: visible;
     opacity: 1;
@@ -129,7 +131,7 @@
     padding: 1% 0;
   }
 
-  img{
-    width: 30%;
+  label {
+    cursor: pointer;
   }
 }
